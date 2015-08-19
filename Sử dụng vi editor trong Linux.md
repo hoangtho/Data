@@ -14,12 +14,12 @@
     - Nhấn u để undo 1 bước trước đó
     - Nhấn uu để undo toàn bộ
 6. Thêm 1 dòng trống (di chuyển cursor xuống cuối dòng)
-    - Nhấn o để thêm 1 dòng trống ở bên dưới dòng hiện tại
-    - Nhấn O để thêm 1 dòng trống ở bên trên dòng hiện tại
+    - Nhấn o (lowercase) để thêm 1 dòng trống ở bên dưới dòng hiện tại
+    - Nhấn O (uppercase) để thêm 1 dòng trống ở bên trên dòng hiện tại
 7. Copy/Paste
     - Nhấn yy để copy toàn bộ dòng
-    - Nhấn p để paste đoạn text vào sau dòng hiện tại
-    - Nhấn P để paste đoạn text vào trước dòng hiện tại
+    - Nhấn p (lowercase) để paste đoạn text vào sau dòng hiện tại
+    - Nhấn P (uppercase) để paste đoạn text vào trước dòng hiện tại
 8. Thoát khỏi vi editor và lưu
     - Nhấn Esc để escape
     - gõ :x để lưu toàn bộ quá trình chỉnh sửa
