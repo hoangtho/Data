@@ -6,8 +6,8 @@
     - di chuyển cursor tới vị trí cần chèn text, rồi add thêm text
 3. Search theo keyword
     - Nhấn phím slash/key_word (ví dụ: keyword là linux => /linux)
-    - Nhấn n để repeat search in forward direction
-    - Nhấn N để repeat search in backward direction
+    - Nhấn n (lowercase) để repeat search in forward direction
+    - Nhấn N (uppercase) để repeat search in backward direction
 4. Xóa dòng
     - Nhấn dd để xóa 1 dòng
 5. Undo
