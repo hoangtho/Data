@@ -5,7 +5,7 @@
     - nhấn phím i để insert
     - di chuyển cursor tới vị trí cần chèn text, rồi add thêm text
 3. Search theo keyword
-    - Nhấn phím slash/key_word
+    - Nhấn phím slash/key_word (ví dụ: keyword là linux => /linux)
     - Nhấn n để repeat search in forward direction
     - Nhấn N để repeat search in backward direction
 4. Xóa dòng
