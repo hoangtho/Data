@@ -24,3 +24,5 @@
     - Nhấn Esc để escape
     - gõ :x để lưu toàn bộ quá trình chỉnh sửa
     - hoặc gõ q! để thoát mà không lưu lại
+
+![alt tag](https://raw.github.com/username/projectname/branch/path/to/img.png)
