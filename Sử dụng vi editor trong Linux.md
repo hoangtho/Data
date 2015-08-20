@@ -25,4 +25,3 @@
     - gõ :x để lưu toàn bộ quá trình chỉnh sửa
     - hoặc gõ q! để thoát mà không lưu lại
 
-![alt text] (http://prntscr.com/86qa97)
