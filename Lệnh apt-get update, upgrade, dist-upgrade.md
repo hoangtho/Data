@@ -8,5 +8,6 @@
 #2. apt-get upgrade
 - Lệnh này sẽ tiến hành download và upgrade tất cả các package mới cho các dịch vụ đã cài trên máy server
 <img src="http://i.imgur.com/BUSgPH7.png" >
+
 #3. apt-get dist-upgrade
 - upgrade các package có liên quan đến kernel
