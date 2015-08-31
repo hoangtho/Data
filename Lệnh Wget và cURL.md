@@ -1,6 +1,6 @@
 ##Lệnh wget và curl
 
-###1. What both do
+###I. What both do
 - Cả 2 đều có thể download được nội dung từ HTTP, HTTPs, FTP.
 - Đều gửi được HTTP POST requests
 - Hỗ trợ HTTP cookies
@@ -14,4 +14,22 @@
 #####[wget command examples](http://www.labnol.org/software/wget-command-examples/28750/)
 #####[cURL command examples](http://www.thegeekstuff.com/2012/04/curl-examples/)
 
-###2. How they differ
+###II. How they differ
+#####1. Wget
+- Wget được typed khi chỉ cần sử dụng left-hand trên bàn phím qwerty! =)))
+- Hỗ trợ Public Suffix List cho việc xử lý cookie domains. Còn cURL thì không có (The Public Suffix List is a list of all known public suffixes, examples: .com, .co.uk, .vn, .edu.vn)
+- Chỉ hỗ trợ GnuTLS or OpenSSL cho SSL/TLS support
+- Không hỗ trợ no SOCKs
+- Hỗ trợ xác thực căn bản qua HTTP proxy
+- Không yêu cầu thêm các options cho việc download một url, trong khi cURL cần bắt buộc phải có -o hoặc -O
+- Wget chỉ dùng command-line only, không có lib hoặc bất kì một dạng nào khác.
+- Wget(1995) ra đời sớm hơn cURL(cuối 1996)
+- Có khả năng phục hồi download và download đệ quy
+
+#####2. cURL
+- Hỗ trợ một vài giao thức SOCKs cho việc truy cập proxy
+- Hỗ trợ gzip và tự động giải nén thư mục
+- Hỗ trợ nhiều phương thức HTTP xác thực hơn, đặc biệt là over HTTP proxies: Basic, Digest, NTLM và Negotiate 
+- Hỗ trợ nhiều giao thức hơn. cURL hỗ trợ FTP, FTPS, Gopher, HTTP, HTTPS, SCP, SFTP, TFTP, TELNET, DICT, LDAP, LDAPS, FILE, POP3, IMAP, SMB/CIFS, SMTP, RTMP and RTSP. Wget chỉ hỗ trợ HTTP, HTTPS and FTP.
+
+<img src="http://i.imgur.com/FblGJH6.png">
