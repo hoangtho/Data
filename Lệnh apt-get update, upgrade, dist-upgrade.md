@@ -10,4 +10,5 @@
 <img src="http://i.imgur.com/BUSgPH7.png" >
 
 #3. apt-get dist-upgrade
-- upgrade các package có liên quan đến kernel
+- có tác vụ giống như lệnh apt-get upgrade nhưng lệnh dist-upgrade còn có cơ chế xử lý thông minh bằng cách loại bỏ các dependencies dư thừa.
+- upgrade các package có liên quan đến kernel.
