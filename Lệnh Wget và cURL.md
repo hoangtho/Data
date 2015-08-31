@@ -23,7 +23,7 @@
 - Hỗ trợ xác thực căn bản qua HTTP proxy
 - Không yêu cầu thêm các options cho việc download một url, trong khi cURL cần bắt buộc phải có -o hoặc -O
 - Wget chỉ dùng command-line only, không có lib hoặc bất kì một dạng nào khác.
-- Wget(1995) ra đời sớm hơn cURL(cuối 1996)
+- Wget (1995) ra đời sớm hơn cURL (cuối 1996)
 - Có khả năng phục hồi download và download đệ quy
 
 #####2. cURL
