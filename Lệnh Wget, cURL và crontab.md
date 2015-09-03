@@ -33,3 +33,19 @@
 - Hỗ trợ nhiều giao thức hơn. cURL hỗ trợ FTP, FTPS, Gopher, HTTP, HTTPS, SCP, SFTP, TFTP, TELNET, DICT, LDAP, LDAPS, FILE, POP3, IMAP, SMB/CIFS, SMTP, RTMP and RTSP. Wget chỉ hỗ trợ HTTP, HTTPS and FTP.
 
 <img src="http://i.imgur.com/FblGJH6.png">
+
+###III. Crontab
+crontab (CRON TABle) là một file gồm lịch trình của các cron entries được thực thi tại một thời điểm xác định.
+#####1. Crontab commands
+- export EDITOR=vi; xác định trình chỉnh sửa khi mở file crontab
+- crontab -e: chỉnh sửa file crontab, hoặc tạo một file mới nếu chưa tồn tại
+- crontab -l: display file crontab
+- crontab -r: remove file crontab
+- crontab -v: display lần cuối cùng mà bạn edit file crontab (option này chỉ available trên một vài systems)
+
+#####2. Crontab file
+<img src="http://i.imgur.com/Y2XOzvf.png">
+
+#####3. Crontab example
+<img src="http://i.imgur.com/opHNLr8.png">
+câu lệnh trên sẽ kiểm tra status của database các ngày trong tuần, kể cả cuối tuần, từ 9a.m - 6p.m
