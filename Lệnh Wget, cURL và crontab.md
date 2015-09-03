@@ -48,4 +48,5 @@ crontab (CRON TABle) là một file gồm lịch trình của các cron entries 
 
 #####3. Crontab example
 <img src="http://i.imgur.com/opHNLr8.png">
+
 câu lệnh trên sẽ kiểm tra status của database các ngày trong tuần, kể cả cuối tuần, từ 9a.m - 6p.m
