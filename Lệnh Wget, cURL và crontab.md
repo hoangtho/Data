@@ -19,7 +19,7 @@
 - Wget được typed khi chỉ cần sử dụng left-hand trên bàn phím qwerty! =)))
 - Hỗ trợ Public Suffix List cho việc xử lý cookie domains. Còn cURL thì không có (The Public Suffix List is a list of all known public suffixes, examples: .com, .co.uk, .vn, .edu.vn)
 - Chỉ hỗ trợ GnuTLS or OpenSSL cho SSL/TLS support
-- Không hỗ trợ no SOCKs
+- Hỗ trợ no SOCKs
 - Hỗ trợ xác thực căn bản qua HTTP proxy
 - Không yêu cầu thêm các options cho việc download một url, trong khi cURL cần bắt buộc phải có -o hoặc -O
 - Wget chỉ dùng command-line only, không có lib hoặc bất kì một dạng nào khác.
@@ -28,6 +28,7 @@
 
 #####2. cURL
 - Hỗ trợ một vài giao thức SOCKs cho việc truy cập proxy
+(Socket Secure (SOCKS) is an Internet protocol that routes network packets between a client and server through a proxy server)
 - Hỗ trợ gzip và tự động giải nén thư mục
 - Hỗ trợ nhiều phương thức HTTP xác thực hơn, đặc biệt là over HTTP proxies: Basic, Digest, NTLM và Negotiate 
 - Hỗ trợ nhiều giao thức hơn. cURL hỗ trợ FTP, FTPS, Gopher, HTTP, HTTPS, SCP, SFTP, TFTP, TELNET, DICT, LDAP, LDAPS, FILE, POP3, IMAP, SMB/CIFS, SMTP, RTMP and RTSP. Wget chỉ hỗ trợ HTTP, HTTPS and FTP.
