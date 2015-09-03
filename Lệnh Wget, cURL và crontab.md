@@ -18,7 +18,7 @@
 #####1. Wget
 - Wget được typed khi chỉ cần sử dụng left-hand trên bàn phím qwerty! =)))
 - Hỗ trợ Public Suffix List cho việc xử lý cookie domains. Còn cURL thì không có (The Public Suffix List is a list of all known public suffixes, examples: .com, .co.uk, .vn, .edu.vn)
-- Chỉ hỗ trợ GnuTLS or OpenSSL cho SSL/TLS support
+- Chỉ hỗ trợ GnuTLS hoặc OpenSSL cho SSL/TLS support (Secure Socket Layer/ Transport Security Layer)
 - Hỗ trợ no SOCKs
 - Hỗ trợ xác thực căn bản qua HTTP proxy
 - Không yêu cầu thêm các options cho việc download một url, trong khi cURL cần bắt buộc phải có -o hoặc -O
