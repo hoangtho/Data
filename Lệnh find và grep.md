@@ -1,4 +1,4 @@
-###. Lệnh find và grep
+### Lệnh find và grep
 
 - Cả 2 đều dùng cho mục đích search
 - grep chỉ search 1 string trong một file
