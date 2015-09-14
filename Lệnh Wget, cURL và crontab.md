@@ -36,7 +36,7 @@
 <img src="http://i.imgur.com/FblGJH6.png">
 
 ###III. Crontab
-crontab (CRON TABle) là một file gồm lịch trình của các cron entries được thực thi tại một thời điểm xác định.
+crontab (CRON TABle - cron theo tiếng Greek là time, tab- table) là một file gồm lịch trình của các cron entries được thực thi tại một thời điểm xác định.
 #####1. Crontab commands
 - export EDITOR=vi; xác định trình chỉnh sửa khi mở file crontab
 - crontab -e: chỉnh sửa file crontab, hoặc tạo một file mới nếu chưa tồn tại
