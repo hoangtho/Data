@@ -12,7 +12,7 @@
 
 Linux references each inode in the inode table using a unique number (called the inode number ), assigned by the file system as data files are created. The file system uses the inode number to identify the file rather than having to use the full file name and path.
 
-####1. Ext2 (second extended file system)
+####2. Ext2 (second extended file system)
 - ext2 được sinh ra để khắc phục một vài hạn chế của ext như dung lượng file chỉ 2gb, file name size 255 characters
 - Khi khởi động, hệ điều hành luôn luôn có 1 chương trình để kiểm tra tính toàn vẹn của hệ thống file đó là fsck (unmount, hệ thống file có dấu hiệu bất thường). Tuy nhiên, quá trình kiểm tra và khôi phục này có thể lâu hay chậm tùy thuộc vào dung lượng của ổ cứng.  
 - Không có tính năng journal
@@ -23,12 +23,20 @@ Linux references each inode in the inode table using a unique number (called the
 - ext2 thường được dùng cho flash-based storage media (như SD cards, and USB flash drives)
 - Kiến trúc Ext2 dùng cấu trúc dữ liệu được gọi là nút định dạng (inode) để tham chiếu và định vị tập tin cũng như các dữ liệu tương ứng. Bảng inode chứa các thông tin gồm loại tập tin, kích thước, quyền truy cập, con trỏ đến những khối dữ liệu liên quan và các thuộc tính khác.
 - Nhóm các data blocks cho một file => file system không phải search toàn bộ physical device để tìm được data block khi read.
-- 
 
 
-####2. Ext3 (third extended file system)
+####3. Ext3 (third extended file system)
 - Hỗ trợ cơ chế journaling file system (tuy an toàn hơn, nhưng chậm hơn)
+  + journal: metadata và content được lưu trên journal 
+  + ordered: metadata được lưu trên journal. Metadata được ghi chỉ sau khi content được lưu trên disk.
+  + writeback: metadata được lưu trên joural. Metadata có thể được ghi trước hoặc sau khi content được ghi trên disk.
+- Convert từ ext2 sang ext3 trực tiếp (không cần backup/restore)
+- Directory chứa tối đa 32000 subdirectory
 
+
+####4. Ext4 (fourth extended file system)
+- File size lớn
+- Hỗ trợ nhiều tính năng mới tăng performance và độ tin cậy (reliability) như multiblock allocation, delayed allocation, journal checksum. fast fsck, etc.
 
 
 <img src="http://i.imgur.com/X2gRKyF.png">
