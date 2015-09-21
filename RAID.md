@@ -72,5 +72,5 @@ RAID 2 gồm hai cụm ổ đĩa, cụm thứ nhất chứa các dữ liệu đ�
 
 Là bản cải tiến của RAID 0. Cần tối thiểu 3 ô cứng.
 
-<img src="http://i.imgur.com/7phY9jn.png" style="width: 200px;">
+<img src="http://i.imgur.com/7phY9jn.png" style="width: 150px; height=100;">
 
