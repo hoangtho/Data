@@ -19,19 +19,23 @@ Ban đầu, RAID được sử dụng như một giải pháp phòng hộ vì n�
 ####2. RAID 1
 - Sử dụng kỹ thuật mirroring (nhân bản dữ liệu)
 - Cần 2 ổ cứng riêng biệt, có cùng dung lượng. Một ở hoạt động, một ổ dự phòng.
-- Thuận lợi + Cung cấp dự phòng dữ liệu toàn diện
-- Bất lợi + Không tăng hiệu suất thực thi
-          + Dung lượng của hệ thống RAID bằng dung lượng của 1 ổ đơn 
+- Thuận lợi 
+   + Cung cấp dự phòng dữ liệu toàn diện
+- Bất lợi 
+   + Không tăng hiệu suất thực thi
+   + Dung lượng của hệ thống RAID bằng dung lượng của 1 ổ đơn 
       
     
 ####3. RAID 0+1
 - Được sinh ra nhằm tận dụng lợi thể của RAID 0 và 1. Đòi hỏi tối thiểu là 4 ổ cứng.
 - Các kĩ thuật “mirroring” và “striping” kết hợp với nhau tạo ra hiệu quả dự phòng
 - Dữ liệu sẽ được ghi đồng thời lên 4 đĩa cứng với 2 ổ dạng Striping tăng tốc và 2 ổ dạng Mirroring sao lưu. 4 ổ đĩa này phải giống hệt nhau và khi đưa vào hệ thống RAID 0+1, dung lượng cuối cùng sẽ bằng ½ tổng dung lượng 4 ổ
-- Thuận lợi + Tăng hiệu quả thực thi
-            + Dữ liệu được dự phòng toàn bộ
-- Bất lợi   + Giá thành đắt (min ~ 4 ổ cứng)
-            + Tốc độ truy xuất dữ liệu giảm một nửa
+- Thuận lợi 
+   + Tăng hiệu quả thực thi
+   + Dữ liệu được dự phòng toàn bộ
+- Bất lợi 
+   + Giá thành đắt (min ~ 4 ổ cứng)
+   + Tốc độ truy xuất dữ liệu giảm một nửa
  
 <img src="http://i.imgur.com/AU9l1a5.png">
 
@@ -45,11 +49,13 @@ Ban đầu, RAID được sử dụng như một giải pháp phòng hộ vì n�
 - Phù hợp với hệ thống máy để bàn, cần từ 3-5 ổ cứng. 
 - Sử dụng kỹ thuật "parity" (chẳn lẻ) để dự phòng dữ liệu.
 - Dung lượng đĩa cứng cuối cùng bằng tổng dung lượng đĩa sử dụng trừ đi một ổ
-- Thuận lợi + Tăng dung lượng lưu trữ
-            + Dữ liệu được dự phòng toàn bộ
-            + Khả năng hoán đổi nhanh 24x7
-- Bất lợi + Giá thành cao
-          + Hiệu quả thực thi giảm trong quá trình phục hồi
+- Thuận lợi 
+   + Tăng dung lượng lưu trữ
+   + Dữ liệu được dự phòng toàn bộ
+   + Khả năng hoán đổi nhanh 24x7
+- Bất lợi 
+   + Giá thành cao
+   + Hiệu quả thực thi giảm trong quá trình phục hồi
          
 <img src="http://i.imgur.com/SsqWGlP.png">
 
