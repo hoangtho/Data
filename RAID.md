@@ -33,8 +33,10 @@ Ban đầu, RAID được sử dụng như một giải pháp phòng hộ vì n�
  
 <img src="http://i.imgur.com/AU9l1a5.png">
 
+
 ####4. RAID 10
 - Gần giống RAID 1+0
+
 <img src="http://i.imgur.com/GefFBSx.png">
 
 ####5. RAID 5
