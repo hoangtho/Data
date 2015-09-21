@@ -11,8 +11,10 @@ Ban đầu, RAID được sử dụng như một giải pháp phòng hộ vì n�
 - Cấp độ 0 được đưa ra không thể cung cấp cấp độ dự phòng nào cho các dữ liệu được lưu trữ.
 - Đòi hỏi tối thiểu phải có 2 ổ đĩa.
 - Sử dụng kỹ thuật "stripping". Striping” phân chia khối dữ liệu đơn như trong hình vẽ và trải chúng qua các ổ cứng => Tác dụng của striping là làm tăng hiệu quả thực thi.
-- Thuận lợi + Tăng hiệu quả lưu trữ
-- Bất lợi   + Không có ổ dự phòng
+- Thuận lợi 
+   + Tăng hiệu quả lưu trữ
+- Bất lợi  
+   + Không có ổ dự phòng
 
 ####2. RAID 1
 - Sử dụng kỹ thuật mirroring (nhân bản dữ liệu)
