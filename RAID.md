@@ -11,6 +11,7 @@ Ban đầu, RAID được sử dụng như một giải pháp phòng hộ vì n�
 - Cấp độ 0 được đưa ra không thể cung cấp cấp độ dự phòng nào cho các dữ liệu được lưu trữ.
 - Đòi hỏi tối thiểu phải có 2 ổ đĩa.
 - Sử dụng kỹ thuật "stripping". Striping” phân chia khối dữ liệu đơn như trong hình vẽ và trải chúng qua các ổ cứng => Tác dụng của striping là làm tăng hiệu quả thực thi.
+- Tốc độ đọc/ghi đều nhanh (great performance)
 - Thuận lợi 
    + Tăng hiệu quả lưu trữ
 - Bất lợi  
@@ -21,6 +22,7 @@ Ban đầu, RAID được sử dụng như một giải pháp phòng hộ vì n�
 ####2. RAID 1
 - Sử dụng kỹ thuật mirroring (nhân bản dữ liệu)
 - Cần 2 ổ cứng riêng biệt, có cùng dung lượng. Một ở hoạt động, một ổ dự phòng.
+- Tốc độ đọc nhanh (exelent read speed), tốc độ ghi chỉ bằng một ổ cứng đơn.
 - Thuận lợi 
    + Cung cấp dự phòng dữ liệu toàn diện
 - Bất lợi 
@@ -52,6 +54,7 @@ Ban đầu, RAID được sử dụng như một giải pháp phòng hộ vì n�
 - Phù hợp với hệ thống máy để bàn, cần từ 3-5 ổ cứng. 
 - Sử dụng kỹ thuật "stripping with parity" (chẵn lẻ) để dự phòng dữ liệu.
 - Dung lượng đĩa cứng cuối cùng bằng tổng dung lượng đĩa sử dụng trừ đi một ổ
+- Tốc độ đọc siêu nhanh (very fast read speed), tốc độ ghi hơi chậm hơn bởi parity cần được tính toán trong quá trình ghi 
 - Thuận lợi 
    + Tăng dung lượng lưu trữ
    + Dữ liệu được dự phòng toàn bộ
