@@ -15,6 +15,8 @@ Ban đầu, RAID được sử dụng như một giải pháp phòng hộ vì n�
    + Tăng hiệu quả lưu trữ
 - Bất lợi  
    + Không có ổ dự phòng
+  
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/RAID_0.svg/220px-RAID_0.svg.png">
 
 ####2. RAID 1
 - Sử dụng kỹ thuật mirroring (nhân bản dữ liệu)
@@ -24,7 +26,8 @@ Ban đầu, RAID được sử dụng như một giải pháp phòng hộ vì n�
 - Bất lợi 
    + Không tăng hiệu suất thực thi
    + Dung lượng của hệ thống RAID bằng dung lượng của 1 ổ đơn 
-      
+   
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/RAID_1.svg/150px-RAID_1.svg.png">   
     
 ####3. RAID 0+1
 - Được sinh ra nhằm tận dụng lợi thể của RAID 0 và 1. Đòi hỏi tối thiểu là 4 ổ cứng.
@@ -37,13 +40,13 @@ Ban đầu, RAID được sử dụng như một giải pháp phòng hộ vì n�
    + Giá thành đắt (min ~ 4 ổ cứng)
    + Tốc độ truy xuất dữ liệu giảm một nửa
  
-<img src="http://i.imgur.com/AU9l1a5.png">
+<img src="http://www.datarc.ru/wp-content/uploads/2015/03/raid-0-1.png">
 
 
 ####4. RAID 10
 - Gần giống RAID 1+0
 
-<img src="http://i.imgur.com/GefFBSx.png">
+<img src="http://media.tumblr.com/tumblr_l5cy0pFgUF1qc42sv.jpg">
 
 ####5. RAID 5
 - Phù hợp với hệ thống máy để bàn, cần từ 3-5 ổ cứng. 
@@ -57,5 +60,5 @@ Ban đầu, RAID được sử dụng như một giải pháp phòng hộ vì n�
    + Giá thành cao
    + Hiệu quả thực thi giảm trong quá trình phục hồi
          
-<img src="http://i.imgur.com/SsqWGlP.png">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/RAID_5.svg/300px-RAID_5.svg.png">
 
