@@ -68,3 +68,7 @@ Ban đầu, RAID được sử dụng như một giải pháp phòng hộ vì n�
 ####6. RAID 2,3,4,7
 
 Các RAID này đều tồn tại, nhưng không có tính ứng dụng cao, và không được triển khai phổ biến
+
+####7. RAID không sinh ra để thay thế cho back-up
+- Back-up sẽ hữu dụng trong trường hợp tất cả các ổ cứng cùng gặp sự cố (mất điện, bị đánh cắp, thiên tai...)
+- Ưu điểm lớn nhất của back-up là xử lý được lỗi người dùng. Nếu không may người dùng làm mất mát dữ liệu, hoặc xóa nhầm một vài file quan trọng mà không hề ý thức được việc này, thì back-up sẽ được coi là một vị cứu tinh!
