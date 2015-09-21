@@ -62,15 +62,6 @@ Ban đầu, RAID được sử dụng như một giải pháp phòng hộ vì n�
          
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/RAID_5.svg/300px-RAID_5.svg.png">
 
-####6. RAID 2
+####6. RAID 2,3,4,7
 
-<img src="http://i.imgur.com/aORu8as.png">
-
-RAID 2 gồm hai cụm ổ đĩa, cụm thứ nhất chứa các dữ liệu được phân tách giống như là RAID 0, cụm thứ hai chứa các mã ECC dành cho sửa chữa lỗi ở cụm thứ nhất. Sự hoạt động của các ổ đĩa ở RAID 2 là đồng thời để đảm bảo rằng các dữ liệu được đọc đúng, chính do vậy chúng không hiệu quả bằng một số loại RAID khác nên ít được sử dụng.
-
-####7. RAID 3
-
-Là bản cải tiến của RAID 0. Cần tối thiểu 3 ô cứng.
-
-<img src="http://i.imgur.com/7phY9jn.png" style="width: 150px; height=100;">
-
+Các RAID này đều tồn tại, nhưng không có tính ứng dụng cao, và không được triển khai phổ biến
