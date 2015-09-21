@@ -64,7 +64,7 @@ Ban đầu, RAID được sử dụng như một giải pháp phòng hộ vì n�
 
 ####6. RAID 2
 
-<img src="http://prntscr.com/8iq4p1">
+<img src="http://i.imgur.com/aORu8as.png">
 
 RAID 2 gồm hai cụm ổ đĩa, cụm thứ nhất chứa các dữ liệu được phân tách giống như là RAID 0, cụm thứ hai chứa các mã ECC dành cho sửa chữa lỗi ở cụm thứ nhất. Sự hoạt động của các ổ đĩa ở RAID 2 là đồng thời để đảm bảo rằng các dữ liệu được đọc đúng, chính do vậy chúng không hiệu quả bằng một số loại RAID khác nên ít được sử dụng.
 
@@ -72,5 +72,5 @@ RAID 2 gồm hai cụm ổ đĩa, cụm thứ nhất chứa các dữ liệu đ�
 
 Là bản cải tiến của RAID 0. Cần tối thiểu 3 ô cứng.
 
-<img src="http://i.imgur.com/7phY9jn.png" = 250x>
+<img src="http://i.imgur.com/7phY9jn.png" style="width: 200px;>
 
