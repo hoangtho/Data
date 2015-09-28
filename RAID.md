@@ -51,7 +51,7 @@ Ban đầu, RAID được sử dụng như một giải pháp phòng hộ vì n�
 <img src="http://media.tumblr.com/tumblr_l5cy0pFgUF1qc42sv.jpg">
 
 ####5. RAID 5
-- Phù hợp với hệ thống máy để bàn, cần từ 3-5 ổ cứng. 
+- Phù hợp với hệ thống máy để bàn, min ~ 3 ổ cứng 
 - Sử dụng kỹ thuật "stripping with parity" (chẵn lẻ) để dự phòng dữ liệu.
 - Dung lượng đĩa cứng cuối cùng bằng tổng dung lượng đĩa sử dụng trừ đi một ổ
 - Tốc độ đọc siêu nhanh (very fast read speed), tốc độ ghi hơi chậm hơn bởi parity cần được tính toán trong quá trình ghi 
