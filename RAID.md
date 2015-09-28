@@ -40,7 +40,7 @@ Ban đầu, RAID được sử dụng như một giải pháp phòng hộ vì n�
    + Dữ liệu được dự phòng toàn bộ
 - Bất lợi 
    + Giá thành đắt (min ~ 4 ổ cứng)
-   + Tốc độ truy xuất dữ liệu giảm một nửa
+   + Tốc độ truy xuất dữ liệu giảm một nửa 
  
 <img src="http://www.datarc.ru/wp-content/uploads/2015/03/raid-0-1.png">
 
@@ -54,7 +54,7 @@ Ban đầu, RAID được sử dụng như một giải pháp phòng hộ vì n�
 - Phù hợp với hệ thống máy để bàn, min ~ 3 ổ cứng 
 - Sử dụng kỹ thuật "stripping with parity" (chẵn lẻ) để dự phòng dữ liệu.
 - Dung lượng đĩa cứng cuối cùng bằng tổng dung lượng đĩa sử dụng trừ đi một ổ
-- Tốc độ đọc siêu nhanh (very fast read speed), tốc độ ghi hơi chậm hơn bởi parity cần được tính toán trong quá trình ghi 
+- Tốc độ đọc nhanh, tốc độ ghi hơi chậm hơn bởi parity cần được tính toán trong quá trình ghi.
 - Thuận lợi 
    + Tăng dung lượng lưu trữ
    + Dữ liệu được dự phòng toàn bộ
