@@ -24,7 +24,7 @@ Storage được chia thành 2 loại chính: Ephermeral và Pesistant
 - File dữ liệu không được chia nhỏ ra giống như Block Storage, mà tất cả được lưu trong một object bao gồm data, metadata và the unique identifier.
 - Dữ liệu có thể đc truy xuất thông qua REST APIs hoặc http/https
 - Kiểu lưu trữ này thường sẽ tạo từ 2-3 bản coppies của file gốc và lưu trữ
-- Tính năng ưu việt nhất của object storage so với hai loại tradition storage ở trên là khả năng mở rộng scalability
+- Tính năng ưu việt nhất của object storage so với hai loại traditional storages ở trên là khả năng mở rộng scalability
 (file storage và blockstorage đều có thể mở rộng được, nhưng phải kết hợp nhiều systems => management!)
 - Objects are immutable; edits are saved as a new object
 - Use cases: 
