@@ -72,3 +72,26 @@ Các RAID này đều tồn tại, nhưng không có tính ứng dụng cao, và
 ####7. RAID không sinh ra để thay thế cho back-up
 - Back-up sẽ hữu dụng trong trường hợp tất cả các ổ cứng cùng gặp sự cố (mất điện, bị đánh cắp, thiên tai...)
 - Ưu điểm lớn nhất của back-up là xử lý được lỗi người dùng. Nếu không may người dùng làm mất mát dữ liệu, hoặc xóa nhầm một vài file quan trọng mà không hề ý thức được việc này, thì back-up sẽ được coi là một vị cứu tinh!
+
+
+####8. RAID Performance
+- RAID 0 (4 ổ cứng)
+
+SeqWrite
+<img src="http://i.imgur.com/3VXswDw.png">
+
+RandRead
+<img src="http://i.imgur.com/NgooKKj.png">
+
+
+RandWrite
+<img src="http://i.imgur.com/enuUISH.png">
+
+SeqRead
+<img src="http://i.imgur.com/qcOvOvK.png">
+
+RandReadWrite (mix)
+<img src="http://i.imgur.com/8iqxuQ1.png">
+
+SeqReadWrite (mix)
+<img src="http://i.imgur.com/UT7bBpk.png">
