@@ -75,7 +75,7 @@ Các RAID này đều tồn tại, nhưng không có tính ứng dụng cao, và
 
 
 ####8. RAID Performance
-- RAID 0 (4 ổ cứng)
+##### RAID 0 (4 ổ cứng)
 
 SeqWrite
 <img src="http://i.imgur.com/3VXswDw.png">
@@ -95,3 +95,35 @@ RandReadWrite (mix)
 
 SeqReadWrite (mix)
 <img src="http://i.imgur.com/UT7bBpk.png">
+
+
+##### RAID 1 (2 ổ cứng)
+
+dd if=/dev/zero of=file1 bs=1024 count=200000
+
+<img src="http://i.imgur.com/t9d9Fes.png">
+
+RandRead
+<img src="http://i.imgur.com/dSPsVyN.png">
+
+RandWrite
+<img src="http://i.imgur.com/5cNy3jL.png">
+
+RandReadWrite (mix)
+<img src="http://i.imgur.com/UQchmhp.png">
+
+SeqRead
+<img src="http://i.imgur.com/aZgvufX.png">
+
+SeqWrite
+<img src="http://i.imgur.com/Qd6z3jC.png">
+
+SeqReadWrite
+<img src="http://i.imgur.com/rEoIC14.png">
+
+
+##### RAID5
+
+
+
+
