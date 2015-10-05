@@ -124,6 +124,7 @@ SeqReadWrite
 
 ##### RAID5
 
-
+RandRead
+<img src="http://i.imgur.com/7oN3Qxp.png">
 
 
