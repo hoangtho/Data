@@ -142,5 +142,6 @@ SeqWrite
 SeqReadWrite (Mix)
 <img src="http://i.imgur.com/1VxwYxq.png">
 
-
+dd if=/dev/zero of=file1 bs=1024 count=200000
+<img src="http://i.imgur.com/NyNjBRp.png">
 
