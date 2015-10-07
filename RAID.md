@@ -122,9 +122,25 @@ SeqReadWrite
 <img src="http://i.imgur.com/rEoIC14.png">
 
 
-##### RAID5
+##### RAID5 (4 ổ cứng)
 
 RandRead
 <img src="http://i.imgur.com/7oN3Qxp.png">
+
+RandWrite
+<img src="http://i.imgur.com/twePRfW.png">
+
+RandReadWrite (Mix)
+<img src="http://i.imgur.com/wQ4nRHJ.png">
+
+SeqRead
+<img src="http://i.imgur.com/dO9qXDD.png">
+
+SeqWrite
+<img src="http://i.imgur.com/GBarmIv.png">
+
+SeqReadWrite (Mix)
+<img src="http://i.imgur.com/1VxwYxq.png">
+
 
 
