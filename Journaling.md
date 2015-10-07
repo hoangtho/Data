@@ -1,3 +1,8 @@
+If you maintain a system of fair complexity or require
+high-availability, you should seriously consider a journaling file
+system
+- - - 
+
 ####1.0 Check a particualar partition ext4 is journaled
 sudo dumpe2fs /dev/sda1 | more
 hoặc tune2fs -l /dev/sda1 | grep features
