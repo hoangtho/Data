@@ -10,6 +10,6 @@ hoặc tune2fs -l /dev/sda1 | grep features
 - tune2fs -O ^has_journal /dev/sda1
 (delete or remove has_journal feature)
 
-<img src="http://prntscr.com/8nwz2x">
+<img src="http://i.imgur.com/Gc6dv4w.png">
 
 
