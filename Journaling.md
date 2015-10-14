@@ -61,12 +61,21 @@ better.
 
 ####3. Test journaling performance
 no journaling
+
 <img src="http://i.imgur.com/MVdMYvv.png">
 
 has journaling
+
 <img src="http://i.imgur.com/hX7YE7S.png">
 
+Using FIO
+no journaling 
 
+<img src="http://i.imgur.com/3tj2JHy.png">
+
+has journaling
+
+<img src="http://prntscr.com/8r5n1o">
 
 
 
