@@ -31,17 +31,32 @@ Advantages of Journaling Filesystems
 
 
 
-###Change journaling mode
+#####1.3Change journaling mode
 tune2fs -o journal_data /dev/sda#
 
 -o: journal_data, journal_data_writeback, journal_data_ordered
 
-###Enable journaling mode
+#####1.4Enable journaling mode
 tune2fs -O has_journal /dev/sda#
 
-###Change journaling size
+#####1.5Change journaling size
 tune2fs -J size=$SIZE /dev/sda#
 
 A larger journal may give you better performance (at the cost of more disk space and longer recovery times)
+
+
+####2. Journaling Mode
+#####2.1 Writeback 
+In writeback mode, only file system metadata is journaled; data blocks are written directly to their fixed location. This mode does not enforce any ordering between the journal and fixed-location data writes, and because of this, writeback mode has the weakest consistency semantics of the three modes. Although it guarantees consistent file system metadata, it does not provide any guarantee as to the consistency of data blocks.
+
+#####2.2 Ordered
+In ordered journaling mode, again only metadata writes are journaled; however, data writes to their fixed location
+are ordered before the journal writes of the metadata. Incontrast to writeback mode, this mode provides more sensible consistency semantics, where both the data and the metadata are guaranteed to be consistent after recovery
+
+#####2.3 Data
+In full data journaling mode, ext3 logs both metadata and data to the journal. This decision implies that when a process writes a data block, it will typically be written out to disk twice: once to the journal, and then later to
+its fixed ext2 location. Data journaling mode provides the same strong consistency guarantees as ordered journaling
+mode; however, it has different performance characteristics, in some cases worse, and surprisingly, in some cases,
+better.
 
 
