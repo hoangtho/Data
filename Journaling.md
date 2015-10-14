@@ -59,4 +59,15 @@ its fixed ext2 location. Data journaling mode provides the same strong consisten
 mode; however, it has different performance characteristics, in some cases worse, and surprisingly, in some cases,
 better.
 
+####3. Test journaling performance
+no journaling
+<img src="http://i.imgur.com/MVdMYvv.png">
+
+has journaling
+<img src="http://i.imgur.com/hX7YE7S.png">
+
+
+
+
+
 
