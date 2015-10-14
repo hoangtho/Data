@@ -75,7 +75,7 @@ no journaling
 
 has journaling
 
-<img src="http://prntscr.com/8r5n1o">
+<img src="http://i.imgur.com/fflDvSo.png">
 
 
 
