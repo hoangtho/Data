@@ -31,4 +31,17 @@ Advantages of Journaling Filesystems
 
 
 
+###Change journaling mode
+tune2fs -o journal_data /dev/sda#
+
+-o: journal_data, journal_data_writeback, journal_data_ordered
+
+###Enable journaling mode
+tune2fs -O has_journal /dev/sda#
+
+###Change journaling size
+tune2fs -J size=$SIZE /dev/sda#
+
+A larger journal may give you better performance (at the cost of more disk space and longer recovery times)
+
 
