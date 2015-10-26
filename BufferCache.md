@@ -50,7 +50,7 @@ iozone -a -i0 -i1 -i2 -s512M -r64k
 
 
 #####FIO random write
-<img src="http://prntscr.com/8vfovd">
+<img src="http://i.imgur.com/kdNHWWU.png">
 
 
 #####FIO seq read
@@ -76,3 +76,12 @@ iozone -a -i0 -i1 -i2 -s512M -r64k
 #####FIO random write
 <img src="">
 
+#####FIO random read
+<img src="http://i.imgur.com/FTkBG4b.png">
+
+#####FIO seq read
+<img src="">
+
+
+#####FIO seq write
+<img src="">
