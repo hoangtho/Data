@@ -60,7 +60,7 @@ iozone -a -i0 -i1 -i2 -s512M -r64k
 #####FIO seq write
 <img src="http://i.imgur.com/d2Y8IiA.png">
 
-####1. Write-back cache mode w/ native IO mode
+####2. Write-back cache mode w/ native IO mode
 
 #####iozone test - test file I/O performance
 iozone -a -i0 -i1 -i2 -s512M -r64k
@@ -85,3 +85,30 @@ iozone -a -i0 -i1 -i2 -s512M -r64k
 
 #####FIO seq write
 <img src="http://i.imgur.com/xImRarq.png">
+
+####3. Write-throug cache mode w/ native IO mode
+
+#####iozone test - test file I/O performance
+iozone -a -i0 -i1 -i2 -s512M -r64k
+<img src="http://i.imgur.com/HnPTPKS.png">
+
+#####dd read test: one process
+<img src="http://i.imgur.com/RefQOLX.png">
+
+#####dd write test: one process
+<img src="http://i.imgur.com/KVDmyU3.png">
+
+
+#####FIO random write
+<img src="">
+
+#####FIO random read
+<img src="http://i.imgur.com/sBpnCNr.png">
+
+#####FIO seq read
+<img src="http://i.imgur.com/yfa680k.png">
+
+
+#####FIO seq write
+<img src="http://i.imgur.com/xImRarq.png">
+
