@@ -26,3 +26,7 @@ Types of disk cache
 
 ###write-back mode
 <img src="http://i.imgur.com/uRrvbPz.png">
+
+
+###none mode
+<img src="http://i.imgur.com/BvhTAYt.png">
