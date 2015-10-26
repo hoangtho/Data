@@ -18,3 +18,11 @@ Types of disk cache
   - Write-through
 
 [Cache Experiment](http://www.linuxatemyram.com/play.html)
+
+
+###write-through mode
+<img src="http://i.imgur.com/7rGSwWV.png">
+
+
+###write-back mode
+<img src="http://i.imgur.com/uRrvbPz.png">
