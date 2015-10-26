@@ -20,13 +20,59 @@ Types of disk cache
 [Cache Experiment](http://www.linuxatemyram.com/play.html)
 
 
-###write-through mode
-<img src="http://i.imgur.com/7rGSwWV.png">
+- - - 
+
+I/O Mode:
+
+    io=native for block device based VMs.
+    io=threads for file-based VMs.
 
 
-###write-back mode
-<img src="http://i.imgur.com/uRrvbPz.png">
+###Guest Test Performance
+
+####1. Write-back cache mode w/ default IO mode
+#####iozone test - test file I/O performance
+iozone -a -i0 -i1 -i2 -s512M -r64k
+<img src="http://i.imgur.com/EYuZM6Q.png">
 
 
-###none mode
-<img src="http://i.imgur.com/BvhTAYt.png">
+#####dd read test: one process
+<img src="http://i.imgur.com/zvr8qjC.png">
+
+
+#####dd write test: one process
+<img src="http://i.imgur.com/jcQQvBO.png">
+
+
+#####FIO random read
+<img src="http://i.imgur.com/Z2gPgax.png">
+
+
+
+#####FIO random write
+<img src="http://prntscr.com/8vfovd">
+
+
+#####FIO seq read
+<img src="http://i.imgur.com/t6Dxw3r.png">
+
+
+#####FIO seq write
+<img src="http://i.imgur.com/d2Y8IiA.png">
+
+####1. Write-back cache mode w/ native IO mode
+
+#####iozone test - test file I/O performance
+iozone -a -i0 -i1 -i2 -s512M -r64k
+<img src="http://i.imgur.com/8WVF9MP.png">
+
+#####dd read test: one process
+<img src="http://i.imgur.com/I19hpTs.png">
+
+#####dd write test: one process
+<img src="http://i.imgur.com/aDx7qlJ.png">
+
+
+#####FIO random write
+<img src="">
+
