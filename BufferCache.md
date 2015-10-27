@@ -86,7 +86,7 @@ iozone -a -i0 -i1 -i2 -s512M -r64k
 #####FIO seq write
 <img src="http://i.imgur.com/xImRarq.png">
 
-####3. Write-throug cache mode w/ native IO mode
+####3. Write-through cache mode w/ default (threads) IO mode
 
 #####iozone test - test file I/O performance
 iozone -a -i0 -i1 -i2 -s512M -r64k
@@ -100,15 +100,42 @@ iozone -a -i0 -i1 -i2 -s512M -r64k
 
 
 #####FIO random write
-<img src="">
+<img src="http://i.imgur.com/MhpL5JK.png">
 
 #####FIO random read
 <img src="http://i.imgur.com/sBpnCNr.png">
 
 #####FIO seq read
-<img src="http://i.imgur.com/yfa680k.png">
+<img src="http://i.imgur.com/Rn2Dc6F.png">
 
 
 #####FIO seq write
-<img src="http://i.imgur.com/xImRarq.png">
+<img src="http://i.imgur.com/4RHRxDB.png">
+
+
+####4. Write-through cache mode w/ native IO mode
+
+#####iozone test - test file I/O performance
+iozone -a -i0 -i1 -i2 -s512M -r64k
+<img src="http://i.imgur.com/EZRaRJH.png">
+
+#####dd read test: one process
+<img src="http://i.imgur.com/oTcl1MD.png">
+
+#####dd write test: one process
+<img src="http://i.imgur.com/Xr7bR4A.png">
+
+
+#####FIO random write
+<img src="http://i.imgur.com/Riyqztn.png">
+
+#####FIO random read
+<img src="http://i.imgur.com/bMeleKG.png">
+
+#####FIO seq read
+<img src="http://i.imgur.com/v0ENisQ.png">
+
+
+#####FIO seq write
+<img src="http://i.imgur.com/nyEofZH.png">
 
